@@ -1,8 +1,10 @@
 import React from "react";
-import "./App.css";
+import "./index.css";
+import "leaflet/dist/leaflet.css";
+import MapView from "./components/Map";
 
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => {
+  return <MapView />;
+};
 
 export default App;
